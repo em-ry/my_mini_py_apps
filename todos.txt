@@ -1,4 +1,4 @@
-jump
-dunk
-basketball
-warm-down
+jogbasketball
+jumpsleep
+wake
+jogsit
