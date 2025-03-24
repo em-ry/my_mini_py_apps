@@ -1,4 +1,5 @@
-jogbasketball
-jumpsleep
-wake
-jogsit
+jog
+sports
+rest
+sleep
+alarm rings
