@@ -15,4 +15,4 @@ def make_archive(filepaths, dest_dir, name):
 
 # code test run
 if __name__ == "__main__":
-    make_archive(filepaths=["parser.py", "parse.py"], dest_dir="../Bonus example/dummy_dir", name="chuka")
+    make_archive(filepaths=[" "], dest_dir="", name="")
