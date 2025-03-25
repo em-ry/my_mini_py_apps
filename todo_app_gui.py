@@ -1,6 +1,13 @@
 import FreeSimpleGUI as sg
 import functions
 import time
+import os
+
+
+# check if .txt file exists
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 # create instances/widgets
 clock = sg.Text("", key="clock")
@@ -26,9 +33,7 @@ window = sg.Window("My To-Do App",
 while True:
     event, values = window.read(timeout=200)
     window["clock"].update(value=time.strftime("%b %d, %y %H:%M:%S"))
-    print(1, event)
-    print(2, values)
-    print(3, values["todo"])
+
     match event:
         case "Add":
             todos = functions.get_todos()
